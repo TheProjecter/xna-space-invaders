@@ -35,6 +35,7 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Animations.cs" />
     <Compile Include="Engine\Animation.cs" />
     <Compile Include="Engine\AnimationFrame.cs" />
     <Compile Include="Engine\BaseGame.cs" />
@@ -47,7 +48,7 @@
     <Compile Include="Engine\MouseButton.cs" />
     <Compile Include="Engine\UserInterface\Label.cs" />
     <Compile Include="Engine\UserInterface\LinkLabel.cs" />
-    <Compile Include="SmallInvader.cs" />
+    <Compile Include="Invader.cs" />
     <Compile Include="SpaceInvaders.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

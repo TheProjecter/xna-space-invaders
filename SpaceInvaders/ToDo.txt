@@ -7,4 +7,5 @@ Document TitleScreen
 Document PlayScreen
 Document Animation
 Document AnimationFrame
-Document SmallInvader
+Document Animations
+Document Invader
