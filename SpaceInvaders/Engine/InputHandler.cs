@@ -113,6 +113,30 @@ namespace SpaceInvaders.Engine
                 private MouseState _LastMouseState;
 
 
+
+                /// <summary>
+                /// Gets the location of the mouse cursor at the last time this GameComponent was updated.
+                /// </summary>
+                public Point MousePosition
+                {
+                        get { return _MouseState.Position; }
+                }
+
+
+
+                /// <summary>
+                /// Gets the location of the mouse cursor at the last time this GameComponent was updated.
+                /// </summary>
+                public Vector2 MouseLocation
+                {
+                        get
+                        {
+                                Point position = MousePosition;
+                                return new Vector2(position.X, position.Y);
+                        }
+                }
+
+
                 // End of Mouse region
                 #endregion
 
