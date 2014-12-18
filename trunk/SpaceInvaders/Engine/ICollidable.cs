@@ -14,6 +14,20 @@ namespace SpaceInvaders.Engine
 
 
                 /// <summary>
+                /// The circular bounds of the object.
+                /// </summary>
+                Circle BoundingCircle { get; }
+
+
+
+                /// <summary>
+                /// The polygonal bounds of the object.
+                /// </summary>
+                Polygon BoundingPolygon { get; }
+
+
+
+                /// <summary>
                 /// Determines what should happen when a collision occurs.
                 /// </summary>
                 /// <param name="other"></param>

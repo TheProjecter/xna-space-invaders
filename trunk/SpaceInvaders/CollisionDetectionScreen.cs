@@ -48,19 +48,19 @@ namespace SpaceInvaders
                 public override void Update(GameTime gameTime)
                 {
                         Vector2 velocity = Vector2.Zero;
-                        if (InputHandler.HasBeenPressed(Keys.Left))
+                        if (InputHandler.IsCurrentlyPressed(Keys.Left))
                         {
                                 velocity.X -= 1;
                         }
-                        if (InputHandler.HasBeenPressed(Keys.Right))
+                        if (InputHandler.IsCurrentlyPressed(Keys.Right))
                         {
                                 velocity.X += 1;
                         }
-                        if (InputHandler.HasBeenPressed(Keys.Up))
+                        if (InputHandler.IsCurrentlyPressed(Keys.Up))
                         {
                                 velocity.Y -= 1;
                         }
-                        if (InputHandler.HasBeenPressed(Keys.Down))
+                        if (InputHandler.IsCurrentlyPressed(Keys.Down))
                         {
                                 velocity.Y += 1;
                         }
@@ -73,7 +73,10 @@ namespace SpaceInvaders
 
                         _Invader2.Velocity = Vector2.Zero;
 
-                        if(CollisionDetection.AxisAlignedBoundingBoxes.HaveCollided(_Invader1, _Invader2))
+
+                        CollisionDetection.CollisionResult collisionResult =
+                                CollisionDetection.AxisAlignedBoundingBoxes.CheckForCollision(_Invader1, _Invader2, _Invader1.Velocity);
+                        if (collisionResult.HaveCollided == true)
                         {
                                 _Invader1.MovementAnimation = Game.Animations.IntellivisionSpaceArmada.Movement.BossInvader;
                         }
