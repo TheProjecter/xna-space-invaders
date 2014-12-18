@@ -79,6 +79,20 @@ namespace SpaceInvaders
 
 
 
+                /// <summary>
+                /// The circular bounds of the object.
+                /// </summary>
+                public Circle BoundingCircle { get; private set; }
+
+
+
+                /// <summary>
+                /// The polygonal bounds of the object.
+                /// </summary>
+                public Polygon BoundingPolygon { get; private set; }
+
+
+
                 public void CollideWith(ICollidable other)
                 {
                 }

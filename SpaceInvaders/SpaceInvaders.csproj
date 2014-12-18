@@ -41,10 +41,13 @@
     <Compile Include="Engine\AnimationFrame.cs" />
     <Compile Include="Engine\BaseGame.cs" />
     <Compile Include="Engine\Circle.cs" />
+    <Compile Include="Engine\CollisionDetection.AxisAlignedBoundingBoxes.cs" />
     <Compile Include="Engine\CollisionDetection.cs" />
+    <Compile Include="Engine\CollisionDetection.Polygonal.cs" />
     <Compile Include="Engine\ICollidable.cs" />
     <Compile Include="Engine\IMovable.cs" />
     <Compile Include="Engine\IPositionable.cs" />
+    <Compile Include="Engine\Polygon.cs" />
     <Compile Include="PlayScreen.cs" />
     <Compile Include="Engine\UserInterface\Control.cs" />
     <Compile Include="Engine\UserInterface\ControlManager.cs" />
