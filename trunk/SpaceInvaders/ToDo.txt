@@ -9,3 +9,7 @@ Document Animation
 Document AnimationFrame
 Document Animations
 Document Invader
+Document Circle
+Document CollisionDetection
+Document ICollidable
+Document Wall

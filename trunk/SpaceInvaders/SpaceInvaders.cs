@@ -37,7 +37,7 @@ namespace SpaceInvaders
             IsMouseVisible = true;
 
             // Load the animations that may be used by the various game components.
-            _Animations = Animations.Create(Content, 2000);
+            _Animations = Animations.Create(Content, 1000);
 
             // The game will start with the title screen.
             TitleScreen titleScreen = new TitleScreen(GameStateManager);

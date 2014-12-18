@@ -67,7 +67,7 @@ namespace SpaceInvaders.Engine
         /// <summary>
         /// Gets or sets the index of the selected frame.
         /// </summary>
-        protected short CurrentFrameIndex
+        public short CurrentFrameIndex
         {
             get { return _CurrentFrameIndex; }
             set
@@ -96,7 +96,7 @@ namespace SpaceInvaders.Engine
         /// <summary>
         /// Gets the current AnimationFrame of the Animation.
         /// </summary>
-        protected AnimationFrame CurrentFrame
+        public AnimationFrame CurrentFrame
         {
             get
             {

@@ -1,9 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
+using SpaceInvaders.Engine;
 
 
 
-namespace SpaceInvaders.Engine
+namespace SpaceInvaders
 {
     internal class PlayScreen : GameState<SpaceInvaders>
     {
