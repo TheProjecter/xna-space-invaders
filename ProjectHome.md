@@ -1,0 +1,3 @@
+In my desire to learn a bit of XNA I discovered RB Whitaker's community.  Browsing through its forum I found a few competitions that had been held.  I thought that they provided a clear structure of goals and decided that I would try my hand each competition, even if I did arrive to the community late.
+
+The first competition was to create a clone of Space Invaders.  Further details can be found by visiting http://rbwhitaker.wikidot.com/forum/t-769988/official-rules.
